@@ -76,7 +76,7 @@ Menyempurnakan antarmuka saat data sudah berjumlah banyak.
 <img width="1910" height="1012" alt="Screenshot 2026-04-19 025843" src="https://github.com/user-attachments/assets/a40927d7-7102-4db9-95dd-5788d00e9ed6" />
 
 **TAMPILAN ARTIKEL:**
-<img width="1916" height="1013" alt="Screenshot 2026-04-19 025859" src="https://github.com/user-attachments/assets/4bc074df-f911-4784-a3ac-4198097aa29f" />
+<img width="1919" height="1012" alt="Screenshot 2026-04-19 032637" src="https://github.com/user-attachments/assets/9e4dd2ab-80c1-4fc3-afc1-f4768d36bf69" />
 
 **TAMPILAN ABOUT:**
 <img width="1919" height="1012" alt="Screenshot 2026-04-19 025911" src="https://github.com/user-attachments/assets/fa9c3976-1de2-4171-875a-70730e4080ce" />
@@ -88,15 +88,15 @@ Menyempurnakan antarmuka saat data sudah berjumlah banyak.
 <img width="1919" height="1019" alt="Screenshot 2026-04-19 030010" src="https://github.com/user-attachments/assets/f8f8d4dc-aaf8-4c24-9cfe-42abad95c79a" />
 
 **TAMPILAN TAMBAH ARTIKEL:**
-<img width="1918" height="1017" alt="Screenshot 2026-04-19 030020" src="https://github.com/user-attachments/assets/03e36fa3-ea76-43fd-a4fd-72b2778c2e94" />
-<img width="1919" height="1019" alt="Screenshot 2026-04-19 030045" src="https://github.com/user-attachments/assets/83be8635-0f28-465b-8c71-dca54126fb9f" />
+<img width="1919" height="1018" alt="Screenshot 2026-04-19 030926" src="https://github.com/user-attachments/assets/c6ae8091-0534-403b-82a2-a75c49dc3bfe" />
+<img width="1919" height="1018" alt="Screenshot 2026-04-19 031002" src="https://github.com/user-attachments/assets/ff60747a-fbe9-4864-adc3-e4d914323379" />
 
 **TAMPILAN UBAH ARTIKEL**
 <img width="1919" height="1019" alt="Screenshot 2026-04-19 030045" src="https://github.com/user-attachments/assets/dfbcacc0-90cd-4b2d-9825-333043346322" />
 
 
 3. **Fitur Pencarian:**
-<img width="1006" height="417" alt="image" src="https://github.com/user-attachments/assets/ac0b2ea5-d630-4e61-a481-74b4989762ef" />
+<img width="1296" height="230" alt="Screenshot 2026-04-19 032646" src="https://github.com/user-attachments/assets/a964accc-7166-49a3-ac1e-e081b63e2f1c" />
 
 4. **Halaman Login:**
 <img width="1919" height="1023" alt="Screenshot 2026-04-19 030728" src="https://github.com/user-attachments/assets/c876bfde-827a-4450-89fb-686c06e337f5" />
