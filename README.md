@@ -73,34 +73,33 @@ Menyempurnakan antarmuka saat data sudah berjumlah banyak.
 ## 📸 Bukti Hasil Praktikum
 
 1. **Tampilan Home User:**
-<img width="1917" height="931" alt="Screenshot 2026-04-07 123939" src="https://github.com/user-attachments/assets/fc549396-5e71-495e-b0a3-9369ee94efbe" />
+<img width="1910" height="1012" alt="Screenshot 2026-04-19 025843" src="https://github.com/user-attachments/assets/a40927d7-7102-4db9-95dd-5788d00e9ed6" />
 
 **TAMPILAN ARTIKEL:**
-<img width="1915" height="933" alt="image" src="https://github.com/user-attachments/assets/ded9bb8e-dc40-4f02-8402-1264b077006b" />
+<img width="1916" height="1013" alt="Screenshot 2026-04-19 025859" src="https://github.com/user-attachments/assets/4bc074df-f911-4784-a3ac-4198097aa29f" />
 
 **TAMPILAN ABOUT:**
-<img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/0b213eda-66d1-4708-9883-cea56fba9ad4" />
+<img width="1919" height="1012" alt="Screenshot 2026-04-19 025911" src="https://github.com/user-attachments/assets/fa9c3976-1de2-4171-875a-70730e4080ce" />
 
 **TAMPILAN CONTACT:**
-<img width="1919" height="963" alt="image" src="https://github.com/user-attachments/assets/3d5d9c54-d2d9-4a1b-9a2d-f5be42c9c0e6" />
-
+<img width="1919" height="1013" alt="Screenshot 2026-04-19 025921" src="https://github.com/user-attachments/assets/6425d873-fe1f-4bb8-b263-a4551c6e95d8" />
 
 2. **Dashboard Admin:**
-<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/71db630f-e8b4-42f1-a981-96a9329a3a49" />
+<img width="1919" height="1019" alt="Screenshot 2026-04-19 030010" src="https://github.com/user-attachments/assets/f8f8d4dc-aaf8-4c24-9cfe-42abad95c79a" />
 
 **TAMPILAN TAMBAH ARTIKEL:**
-<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/d0ace816-4a7f-4f3e-9d0e-4baf15d96fc2" />
-<img width="1918" height="948" alt="image" src="https://github.com/user-attachments/assets/83dcba3b-abc6-4007-b615-ada5ef95a8ab" />
+<img width="1918" height="1017" alt="Screenshot 2026-04-19 030020" src="https://github.com/user-attachments/assets/03e36fa3-ea76-43fd-a4fd-72b2778c2e94" />
+<img width="1919" height="1019" alt="Screenshot 2026-04-19 030045" src="https://github.com/user-attachments/assets/83be8635-0f28-465b-8c71-dca54126fb9f" />
 
 **TAMPILAN UBAH ARTIKEL**
-<img width="1914" height="940" alt="image" src="https://github.com/user-attachments/assets/c5e93eed-d859-445d-9669-7ce8ffe0e283" />
+<img width="1919" height="1019" alt="Screenshot 2026-04-19 030045" src="https://github.com/user-attachments/assets/dfbcacc0-90cd-4b2d-9825-333043346322" />
 
 
 3. **Fitur Pencarian:**
 <img width="1006" height="417" alt="image" src="https://github.com/user-attachments/assets/ac0b2ea5-d630-4e61-a481-74b4989762ef" />
 
 4. **Halaman Login:**
-<img width="1916" height="937" alt="image" src="https://github.com/user-attachments/assets/36187c0c-4809-4300-a265-2cad73951e4f" />
+<img width="1919" height="1023" alt="Screenshot 2026-04-19 030728" src="https://github.com/user-attachments/assets/c876bfde-827a-4450-89fb-686c06e337f5" />
 
 
 ---
