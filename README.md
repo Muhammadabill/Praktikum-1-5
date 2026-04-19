@@ -54,7 +54,8 @@ Menyempurnakan antarmuka saat data sudah berjumlah banyak.
 
 1.  **Clone & Setup:**
     ```bash
-
+    git clone [https://github.com/Muhammadabill/Praktikum-1-5.git](https://github.com/Muhammadabill/Praktikum-1-5.git)
+    cd Praktikum-1-5
     ```
 2.  **Database:**
     * Buat database bernama `lab_ci4`.
@@ -69,6 +70,8 @@ Menyempurnakan antarmuka saat data sudah berjumlah banyak.
 
 ---
 
+## DI KARENAKAN FILE NYA TIDAK BISA DI UPLOAD SEMUA KE DALAM GITHUB, JADI SAYA MEMBUAT LINK UNTUK MENGAKSES SEMUA FILE NYA :
+**https://drive.google.com/drive/folders/1WHwAuEmPI4pFm19ozLCxnSpQRe0vzdop?usp=drive_link**
 
 ## 📸 Bukti Hasil Praktikum
 
