@@ -54,8 +54,8 @@ Menyempurnakan antarmuka saat data sudah berjumlah banyak.
 
 1.  **Clone & Setup:**
     ```bash
-    git clone [https://github.com/fajarfawwaz/Lab7Web.git](https://github.com/fajarfawwaz/Lab7Web.git)
-    cd Lab7Web
+      git clone [https://github.com/Muhammadabill/Praktikum-1-5.git](https://github.com/Muhammadabill/Praktikum-1-5.git)
+      cd Praktikum-1-5
     ```
 2.  **Database:**
     * Buat database bernama `lab_ci4`.
@@ -71,39 +71,38 @@ Menyempurnakan antarmuka saat data sudah berjumlah banyak.
 ---
 
 ## DI KARENAKAN FILE NYA TIDAK BISA DI UPLOAD SEMUA KE DALAM GITHUB, JADI SAYA MEMBUAT LINK UNTUK MENGAKSES SEMUA FILE NYA :
-**https://drive.google.com/drive/folders/1Ykv6ji9g2z9rLGGT300JYbav39uYaoRM?usp=sharing**
+**https://drive.google.com/drive/folders/1WHwAuEmPI4pFm19ozLCxnSpQRe0vzdop?usp=drive_link**
 
 ## 📸 Bukti Hasil Praktikum
 
 1. **Tampilan Home User:**
-<img width="1917" height="931" alt="Screenshot 2026-04-07 123939" src="https://github.com/user-attachments/assets/fc549396-5e71-495e-b0a3-9369ee94efbe" />
+<img width="1910" height="1012" alt="Screenshot 2026-04-19 025843" src="https://github.com/user-attachments/assets/8ad0fb34-cbf0-42b8-8ef6-a1eff282932f" />
 
 **TAMPILAN ARTIKEL:**
-<img width="1915" height="933" alt="image" src="https://github.com/user-attachments/assets/ded9bb8e-dc40-4f02-8402-1264b077006b" />
+<img width="1919" height="1012" alt="Screenshot 2026-04-19 032637" src="https://github.com/user-attachments/assets/e7a94d8b-d6cd-4017-92a5-12c936748261" />
 
 **TAMPILAN ABOUT:**
-<img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/0b213eda-66d1-4708-9883-cea56fba9ad4" />
+<img width="1919" height="1012" alt="Screenshot 2026-04-19 025911" src="https://github.com/user-attachments/assets/63dc7739-f12e-4c1e-a511-992d0d181742" />
 
 **TAMPILAN CONTACT:**
-<img width="1919" height="963" alt="image" src="https://github.com/user-attachments/assets/3d5d9c54-d2d9-4a1b-9a2d-f5be42c9c0e6" />
-
+<img width="1919" height="1013" alt="Screenshot 2026-04-19 025921" src="https://github.com/user-attachments/assets/698a1385-96aa-41c3-b534-8405c6699e66" />
 
 2. **Dashboard Admin:**
-<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/71db630f-e8b4-42f1-a981-96a9329a3a49" />
+<img width="1919" height="1019" alt="Screenshot 2026-04-19 030010" src="https://github.com/user-attachments/assets/5dfb9314-bd9f-49ff-a69e-40242f1b7e99" />
 
 **TAMPILAN TAMBAH ARTIKEL:**
-<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/d0ace816-4a7f-4f3e-9d0e-4baf15d96fc2" />
-<img width="1918" height="948" alt="image" src="https://github.com/user-attachments/assets/83dcba3b-abc6-4007-b615-ada5ef95a8ab" />
+<img width="1919" height="1018" alt="Screenshot 2026-04-19 030926" src="https://github.com/user-attachments/assets/d7ac26d8-16ab-4e4c-942d-15fcf2ef21b4" />
+<img width="1919" height="1018" alt="Screenshot 2026-04-19 031002" src="https://github.com/user-attachments/assets/8c0f5489-df63-4eb2-9b01-9bf4b309372b" />
 
 **TAMPILAN UBAH ARTIKEL**
-<img width="1914" height="940" alt="image" src="https://github.com/user-attachments/assets/c5e93eed-d859-445d-9669-7ce8ffe0e283" />
+<img width="1919" height="1019" alt="Screenshot 2026-04-19 030045" src="https://github.com/user-attachments/assets/3803bcc5-ba31-46e5-830d-b544ecbc703e" />
 
 
 3. **Fitur Pencarian:**
-<img width="1006" height="417" alt="image" src="https://github.com/user-attachments/assets/ac0b2ea5-d630-4e61-a481-74b4989762ef" />
+<img width="1296" height="230" alt="Screenshot 2026-04-19 032646" src="https://github.com/user-attachments/assets/cd3ee98b-ff80-4528-b17d-648b880071b1" />
 
 4. **Halaman Login:**
-<img width="1916" height="937" alt="image" src="https://github.com/user-attachments/assets/36187c0c-4809-4300-a265-2cad73951e4f" />
+<img width="1919" height="1023" alt="Screenshot 2026-04-19 030728" src="https://github.com/user-attachments/assets/c70ba4cf-8395-47f1-b751-5f5731d2043c" />
 
 
 ---
