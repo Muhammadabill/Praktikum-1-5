@@ -1,5 +1,5 @@
-# 📘 Dokumentasi Lengkap Praktikum Pemrograman Web 2
-## 📰 Sistem Informasi Portal Berita - CodeIgniter 4
+# 📘Dokumentasi Lengkap Praktikum Pemrograman Web 2
+## 📰Sistem Informasi Portal Berita - CodeIgniter 4
 
 Dokumentasi ini disusun sebagai laporan komprehensif pengerjaan Modul 1 hingga Modul 5. Proyek ini mendemonstrasikan transisi dari website statis menuju aplikasi web dinamis berbasis **MVC (Model-View-Controller)**.
 
