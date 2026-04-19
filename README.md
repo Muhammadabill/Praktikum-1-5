@@ -1,109 +1,61 @@
-# 📘 Dokumentasi Praktikum Pemrograman Web 2
-## 📰 Sistem Informasi Portal Berita (CodeIgniter 4)
+# CodeIgniter 4 Framework
 
-Dokumen ini berisi rangkuman pengerjaan praktikum dari Modul 1 hingga Modul 5. Proyek ini menunjukkan proses pengembangan dari website sederhana menjadi aplikasi web dinamis berbasis arsitektur MVC (Model-View-Controller) menggunakan CodeIgniter 4.
+## What is CodeIgniter?
 
----
+CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
+More information can be found at the [official site](https://codeigniter.com).
 
-## 👤 Identitas Mahasiswa
-* **Nama :** Muhamad Nabil Satriya Suntara
-* **NIM :** 312410365
-* **Kelas :** TI.24.A4 / I241D
-* **Mata Kuliah :** Pemrograman Web 2
+This repository holds the distributable version of the framework.
+It has been built from the
+[development repository](https://github.com/codeigniter4/CodeIgniter4).
 
-  ---
-  
-## 🧩 Analisis Struktur Modul Praktikum
+More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
 
-### 🟢 Modul 1 - Dasar MVC & Routing
-Pada tahap awal, fokus utama adalah memindahkan paradigma PHP Native ke Framework.
-* **Logika:** User meminta URL -> `Routes.php` mengarahkan ke `Controller` -> Controller memanggil `View`.
-* **Implementasi:** Membuat `Controller Page.php` untuk menangani halaman statis (Home, About, Contact).
-* **Pelajaran Penting:** Memahami bahwa logika bisnis tidak boleh diletakkan di dalam View.
+You can read the [user guide](https://codeigniter.com/user_guide/)
+corresponding to the latest version of the framework.
 
-### 🔵 Modul 2: CRUD & Interaksi Database
-Tahap ini mengubah website menjadi dinamis dengan kemampuan mengelola data di MySQL.
-* **Logika:** Membuat `ArtikelModel.php` sebagai jembatan ke tabel `artikel`.
-* **Fitur Admin:** * **Create:** Form untuk input berita baru.
-    * **Read:** Menampilkan data dari database ke dalam tabel HTML.
-    * **Update:** Mengambil data berdasarkan ID untuk diedit kembali.
-    * **Delete:** Menghapus data permanen dari database.
-* **Konfigurasi:** Mengatur koneksi database pada file `.env`.
+## Important Change with index.php
 
-### 🟡 Modul 3: Templating (View Layout & View Cell)
-Menerapkan prinsip **DRY (Don't Repeat Yourself)** agar kode lebih bersih.
-* **View Layout:** Menggunakan satu file induk `layout/main.php`. Halaman lain hanya perlu "mengisi" bagian konten menggunakan `$this->extend()`.
-* **View Cell:** Membuat komponen modular `ArtikelTerkini`. Komponen ini bisa dipanggil di halaman mana pun tanpa harus menulis ulang query database di setiap Controller.
-* **Manfaat:** Jika ada perubahan pada Header atau Footer, cukup edit satu file saja.
+`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
+for better security and separation of components.
 
-### 🔴 Modul 4: Autentikasi & Security Filter
-Melindungi area sensitif (Dashboard Admin) dari akses tanpa izin.
-* **Alur Login:** Validasi `userpassword` menggunakan Session.
-* **Filters:** Implementasi `AuthFilter.php`. Jika user mencoba akses `/admin` tanpa login, sistem otomatis menendang balik ke halaman `/login`.
-* **Database:** Pembuatan tabel `user` untuk menyimpan kredensial admin.
+This means that you should configure your web server to "point" to your project's *public* folder, and
+not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
+framework are exposed.
 
-### 🟣 Modul 5: Optimasi UX (Pagination & Searching)
-Menyempurnakan antarmuka saat data sudah berjumlah banyak.
-* **Pagination:** Mengganti `findAll()` menjadi `paginate(10)`. Ini mencegah *lag* pada browser jika data mencapai ribuan.
-* **Searching:** Menggunakan metode `like()` pada query SQL untuk memfilter judul artikel berdasarkan kata kunci dari user.
-* **Persistence:** Menggunakan `pager->only(['q'])` agar saat user pindah ke halaman 2, hasil pencarian kata kunci 'q' tidak hilang.
+**Please** read the user guide for a better explanation of how CI4 works!
 
----
+## Repository Management
 
-## 💻 Cara Instalasi Proyek
+We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
+We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
+FEATURE REQUESTS.
 
-1.  **Clone & Setup:**
-    ```bash
-    git clone [https://github.com/Muhammadabill/Praktikum-1-5.git](https://github.com/Muhammadabill/Praktikum-1-5.git)
-    cd Praktikum-1-5
-    ```
-2.  **Database:**
-    * Buat database bernama `lab_ci4`.
-    * Import file `.sql` yang ada di folder `database/`.
-3.  **Environment:**
-    * Rename `env` menjadi `.env`.
-    * Atur `database.default.username` dan `database.default.password` sesuai XAMPP kamu.
-4.  **Run:**
-    ```bash
-    php spark serve
-    ```
+This repository is a "distribution" one, built by our release preparation script.
+Problems with it can be raised on our forum, or as issues in the main repository.
 
----
+## Contributing
 
-## DI KARENAKAN FILE NYA TIDAK BISA DI UPLOAD SEMUA KE DALAM GITHUB, JADI SAYA MEMBUAT LINK UNTUK MENGAKSES SEMUA FILE NYA :
-**https://drive.google.com/drive/folders/1WHwAuEmPI4pFm19ozLCxnSpQRe0vzdop?usp=drive_link**
+We welcome contributions from the community.
 
-## 📸 Bukti Hasil Praktikum
+Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
 
-1. **Tampilan Home User:**
-<img width="1910" height="1012" alt="Screenshot 2026-04-19 025843" src="https://github.com/user-attachments/assets/a40927d7-7102-4db9-95dd-5788d00e9ed6" />
+## Server Requirements
 
-**TAMPILAN ARTIKEL:**
-<img width="1919" height="1012" alt="Screenshot 2026-04-19 032637" src="https://github.com/user-attachments/assets/9e4dd2ab-80c1-4fc3-afc1-f4768d36bf69" />
+PHP version 8.2 or higher is required, with the following extensions installed:
 
-**TAMPILAN ABOUT:**
-<img width="1919" height="1012" alt="Screenshot 2026-04-19 025911" src="https://github.com/user-attachments/assets/fa9c3976-1de2-4171-875a-70730e4080ce" />
+- [intl](http://php.net/manual/en/intl.requirements.php)
+- [mbstring](http://php.net/manual/en/mbstring.installation.php)
 
-**TAMPILAN CONTACT:**
-<img width="1919" height="1013" alt="Screenshot 2026-04-19 025921" src="https://github.com/user-attachments/assets/6425d873-fe1f-4bb8-b263-a4551c6e95d8" />
+> [!WARNING]
+> - The end of life date for PHP 7.4 was November 28, 2022.
+> - The end of life date for PHP 8.0 was November 26, 2023.
+> - The end of life date for PHP 8.1 was December 31, 2025.
+> - If you are still using below PHP 8.2, you should upgrade immediately.
+> - The end of life date for PHP 8.2 will be December 31, 2026.
 
-2. **Dashboard Admin:**
-<img width="1919" height="1019" alt="Screenshot 2026-04-19 030010" src="https://github.com/user-attachments/assets/f8f8d4dc-aaf8-4c24-9cfe-42abad95c79a" />
+Additionally, make sure that the following extensions are enabled in your PHP:
 
-**TAMPILAN TAMBAH ARTIKEL:**
-<img width="1919" height="1018" alt="Screenshot 2026-04-19 030926" src="https://github.com/user-attachments/assets/c6ae8091-0534-403b-82a2-a75c49dc3bfe" />
-<img width="1919" height="1018" alt="Screenshot 2026-04-19 031002" src="https://github.com/user-attachments/assets/ff60747a-fbe9-4864-adc3-e4d914323379" />
-
-**TAMPILAN UBAH ARTIKEL**
-<img width="1919" height="1019" alt="Screenshot 2026-04-19 030045" src="https://github.com/user-attachments/assets/dfbcacc0-90cd-4b2d-9825-333043346322" />
-
-
-3. **Fitur Pencarian:**
-<img width="1296" height="230" alt="Screenshot 2026-04-19 032646" src="https://github.com/user-attachments/assets/a964accc-7166-49a3-ac1e-e081b63e2f1c" />
-
-4. **Halaman Login:**
-<img width="1919" height="1023" alt="Screenshot 2026-04-19 030728" src="https://github.com/user-attachments/assets/c876bfde-827a-4450-89fb-686c06e337f5" />
-
-
----
-**Status Proyek:** Selesai (Modul 1-5) ✅
+- json (enabled by default - don't turn it off)
+- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
+- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
